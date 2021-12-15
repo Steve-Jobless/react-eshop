@@ -51,10 +51,14 @@ const ImgContainer = styled.div`
   flex: 1;
   height: 100%;
   width: 100%;
+  position: relative;
 `;
 
 const Image = styled.img`
   height: 80%;
+  position: absolute;
+  left: 150px;
+  top: 10px;
 `;
 
 const InfoContainer = styled.div`
